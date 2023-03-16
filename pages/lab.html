@@ -26,22 +26,79 @@
     </select>
     <div class="main_container">
       <div id="h1">
-        <h3>Práctica 1</h3>
+        <h3>Práctica 1: Protocolo de Comunicación: Contador de pulsos y contador de tiempo</h3>
+        <h4>Objetivo General</h4>
+        <h4>Conocer, identificar y comprobar el funcionamiento al desarrollar un protocolo de comunicación, en esta primera parte de un contador de pulsos y un contador de tiempo en un pulso.</h4>
+        <h4>Objetivos Específicos</h4>
+        <h4>Contador de Pulsos</h4>
+        <p>
+
+    Utilizando 1 Arduino, diseñar una función que permita enviar un número determinado de pulsos (Variación de 0 a 1) a una frecuencia específica, la función debe tener la siguiente estructura void pulsos(int cantidad, int duración). (Comprobar el correcto funcionamiento utilizando el osciloscopio).
+    
+    Utilizando un segundo Arduino, diseñar una función que permita contar el número de pulsos que ha recibido (Variación de 0 a 1) y mostrarlos en el monitor serial
+    
+    Utilizando ambos arduinos, conectar un pin de los Arduinos para comprobar el funcionamiento del sistema enviando un numero de pulsos específicos a la velocidad de 1 pulso por segundo,10, 100 y 1000 pulsos por segundo.
+</p>
+        <h4>Contador de duración de pulsos</h4>
+        <p>
+    Utilizando 1 Arduino, diseñar una función que permita enviar un pulso con un tiempo en High determinado (Comprobar el correcto funcionamiento utilizando el osciloscopio)
+    
+    Utilizando un segundo Arduino, diseñar una función que permita contar el tiempo de la duración de un pulso que ha recibido del primer Arduino (Variación de 0 a 1) y mostrarlos en el monitor serial.
+</p>
         <img src="../content/code_envio.png"><img src="../content/code_recepcion.png">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Lyt2AeEdSIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/0Z9hTtTfpII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div id="h2">
-        <h3>Práctica 2</h3>
+        <h3>Práctica 2: Protocolo de Comunicación: Convertidor a binario</h3>
+        <h4>Objetivo General</h4>
+        <h4>Conocer, identificar y comprobar el funcionamiento al desarrollar un protocolo de comunicación, en esta tercera parte de un convertidor a binario.</h4>
+        <h4>Objetivos Específicos</h4>
+        <p>
+    Utilizando 1 Arduino, diseñar un sistema que permita convertir el valor analógico de un potenciómetro en un arreglo de variables que representen el numero en binario de 8 bits, de tal forma que podamos ver cada uno de los valores como salidas digitales en los pines del Arduino.
+    
+    Utilizando un segundo Arduino, diseñar una función que permita convertir el valor en binario obtenido de 8 puertos digitales del Arduino en un valor entero en sistema decimal y mostrarlos en el monitor serial. Utilizar el primer Arduino para generar los valores digitales en binario y el segundo Arduino utilizarlo para decodificarlos y convertirlos en un valor decimal
+</p>
         <img src="../content/code_envio2.png"><img src="../content/code_recepcion2.png">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/EqM4LdNnjtI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div id="h3">
-        <h3>Práctica 3</h3>
+        <h3>Práctica 3: Protocolo de Comunicación Asíncrono</h3>
+        <h4>Objetivo General</h4>
+        <h4>Conocer, identificar y comprobar el funcionamiento al desarrollar un protocolo de comunicación asíncrono.</h4>
+        <h4>Objetivos Específicos</h4>
+        <p>
+    Utilizando 1 Arduino, diseñar un sistema que permita convertir el valor analógico de un potenciómetro en un arreglo de variables que representen el numero en binario de 8 bits, y los deposite en un arreglo [ ], Finalmente elaborar un código de programación que permita enviar los bits del arreglo en orden y en serie siguiendo las siguientes características:
+    - Iniciar el envió de los datos siempre con una señal HIGH (En total se enviarán 9 datos, el primer bit en HIGH y posteriormente los 8 bits de información).
+    - Enviar los datos con una duración del pulso predeterminada, ejemplo 1000 ms
+    - Enviar siempre la misma cantidad de bits.
+    
+    Utilizando un segundo Arduino, diseñar una función que permita adquirir el valor en bits de la señal de comunicación del Arduino anterior, la procese y la convierte en un dato decimal que finalmente enviara al monitor serial.
+</p>
         <img src="../content/code_envio3.png"><img src="../content/code_recepcion3.png">
       </div>
       <div id="h4">
-        <h3>Práctica 4</h3>
+        <h3>Práctica 4: Wifi ESP8266 Entradas y Salidas Digitales</h3>
+        <h4>Objetivo General</h4>
+        <h4>Conocer, identificar y comprobar el funcionamiento de las entradas y salidas digitales en el módulo NodeMCU ESP8266 o ESP32.</h4>
+        <h4>Objetivos Específicos</h4>
+        <p>
+    Utilizando la información e instrucciones de la presentación, configurar el IDE de Arduino para poder programar el NodeMCU directamente desde el entorno de Arduino, instalando las herramientas necesarias.
+    
+    Revisar el pinout y los GPIO disponibles para el uso del NodeMCU seleccionado.
+    
+    Desarrollar un programa de encendido de un LED mediante programación.
+    
+    Desarrollar un programa de apagado de un LED mediante programación.
+    
+    Desarrollar un programa de encendido y apagado de un LED mediante retardos.
+    
+    Desarrollar un sistema de encendido y apagado de un LED mediante el uso de botones.
+    
+    Desarrollar un sistema de encendido y apagado de un LED mediante el uso de dos botones y una condicional AND.
+    
+    Desarrollar un sistema de encendido y apagado de un LED mediante el uso de dos botones y una condicional OR.
+</p>
         <img src="../content/code_todo4.png">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/e_npYneRs-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/z-8LqghcisM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -49,16 +106,46 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/pR_6T5QczPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div id="h5">
-        <h3>Práctica 5</h3>
+        <h3>Práctica 5: Cables de Red</h3>
+        <h4>Objetivo General</h4>
+        <h4>Conocer, identificar y comprobar el funcionamiento de los cables de red estructurado.</h4>
+        <h4>Objetivos Específicos</h4>
+        <p>Investigar la configuración de los cables de red estructurados: Directo y Cruzado
+        
+        Investigar y explicar la forma de probar un cable de red directo y uno cruzado.
+        
+        Armar 2 cables de red directos y probarlos.
+        
+        Armar 2 cables de red cruzados y probarlos.</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/0p3KhfoLyTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/7EaSsV5GO44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div id="h6">
-        <h3>Práctica 6</h3>
+        <h3>Práctica 6: Configuración de servidor para Red Local</h3>
+        <h4>Objetivo General</h4>
+        <h4>Conocer, investigar e identificar los pasos para configurar una red local y el acceso a recursos de un equipo en red.</h4>
+        <h4>Objetivos Específicos</h4>
+        <p>En tu computadora instala XAMPP para configurar un servidor local, habilita los servicios de Apache y monta un sitio web: https://www.apachefriends.org/es/index.html 
+        
+        Habilita el acceso al puerto 80 desde el firewall del equipo configurado como el servidor local. 
+        
+        Conéctate a una red de internet (IBERO o red personal con tu celular), Identifica la Ip de asignada al equipo servidor. 
+        
+        Comprueba el acceso al sitio web montado en el servidor local desde 3 dispositivos distintos (para acceder es necesario estar en la misma red y colocar en el explorador en url la dirección IP del servidor). </p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/_jaJCsUg04E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div id="h7">
-        <h3>Práctica 7</h3>
+        <h3>Práctica 7: Redes de computadora con Switches y Cables</h3>
+        <h4>Objetivo General</h4>
+        <h4>Conocer, identificar y comprobar el funcionamiento de una red de área local utilizando switches y Router.</h4>
+        <h4>Objetivos Específicos</h4>
+        <p>Identificar y caracterizar el funcionamiento del switch y el router. 
+
+        Elaborar una red, utilizando la asignación automática de IP, seleccionado el tipo de cable adecuado y un switch conectando mínimo 3 computadoras y una con servicios de servidor. (Comprueba que es posible encontrar dispositivos en la red, puedes usar el comando PING, y comprueba el acceso a la página web del servidor) 
+
+        Elaborar una red, utilizando la asignación automática de IP, seleccionado el tipo de cable adecuado y un router conectando mínimo 3 computadoras (alámbrica o inalámbricamente) y una con servicios de servidor. (Comprueba que es posible encontrar dispositivos en la red, puedes usar el comando PING, y comprueba el acceso a la página web del servidor) 
+
+        Une ambas Redes, utilizando la asignación automática de IP, seleccionado el tipo de cable adecuado y comprueba el intercambio de archivos. </p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/F63zaziFgL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/--let84aY9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/E6CWsBghGA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
