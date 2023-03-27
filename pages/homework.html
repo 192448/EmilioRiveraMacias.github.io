@@ -22,6 +22,7 @@
         <option value="5">Tarea 5</option>
         <option value="6">Tarea 6</option>
         <option value="7">Examen 1</option>
+        <option value="8">Tarea 8</option>
       </select>
     <div class="main_container">
       <div id="h1">
@@ -175,6 +176,165 @@ Es importante tener en cuenta que la necesidad de utilizar un cable cruzado o re
       <div id="h7">
         <h3>Examen 1</h3>
         <a href="../content/Examen Redes.pptx" download>Presentación Power Point Examen 1</a>
+      </div>
+      <div id="h8">
+        <h3>PHP</h3>
+        <p>
+        PHP es un lenguaje de programación de código abierto utilizado principalmente para el desarrollo de aplicaciones web y la creación de contenido dinámico en sitios web. Es un lenguaje interpretado, lo que significa que no necesita ser compilado antes de ser ejecutado.
+        </p>
+        <p>
+¿Para qué sirve el lenguaje PHP?
+        </p>
+        <p>
+PHP se utiliza principalmente para el desarrollo de aplicaciones web, incluyendo el manejo de formularios, la creación de contenido dinámico, la interacción con bases de datos, la gestión de sesiones y cookies, y la creación de sistemas de comercio electrónico y sitios web complejos.
+        </p>
+        <p>
+¿Cuál es la diferencia entre los archivos HTML y PHP?
+        </p>
+        <p>
+HTML es un lenguaje de marcado utilizado para la creación de páginas web estáticas, mientras que PHP es un lenguaje de programación utilizado para crear páginas web dinámicas. Los archivos HTML son estáticos, lo que significa que no pueden cambiar una vez que se han cargado en el navegador, mientras que los archivos PHP pueden generar contenido dinámico en función de los datos y las condiciones.
+        </p>
+        <p>
+¿Para qué sirve la etiqueta <?php ?>?
+        </p>
+        <p>
+La etiqueta <?php ?> se utiliza en PHP para delimitar el código PHP dentro de un archivo HTML o de otro tipo. Todo el código PHP se escribe dentro de estas etiquetas.
+        </p>
+        <p>
+¿Cuáles son los pasos y requisitos para cargar un archivo PHP en un servidor?
+        </p>
+        <p>
+Para cargar un archivo PHP en un servidor, se necesitan tres cosas: un servidor web que admita PHP (como Apache), un intérprete de PHP (como PHP-FPM) y un archivo PHP. El archivo PHP debe estar guardado en la carpeta raíz del servidor web (generalmente llamada htdocs o public_html). El archivo se puede acceder a través de una URL que apunte al servidor y la ubicación del archivo.
+        </p>
+        <p>
+Elabora un programa básico “Hola mundo” con PHP, describe el funcionamiento y elementos utilizados. Inserta el programa embebido con repl.it en tu página.
+        </p>
+        <p>
+<?php
+           echo "¡Hola Mundo!";
+?>
+        </p>
+        <p>
+En este programa se utiliza la función "echo" para imprimir en la pantalla el mensaje "¡Hola mundo!". La etiqueta <?php ?> se utiliza para delimitar el código PHP en el archivo HTML.
+        </p>
+        <p>
+¿Para qué sirve la función echo en PHP?
+        </p>
+        <p>
+La función "echo" en PHP se utiliza para imprimir contenido en la pantalla del usuario. Puede utilizarse para imprimir texto, variables y otros tipos de datos. La función "echo" también se puede utilizar para imprimir código HTML dentro de una página PHP.
+        </p>
+        <p>
+¿Cuál es la sintaxis de la programación en PHP?
+        </p>
+        <p>
+La sintaxis básica de PHP es similar a la de otros lenguajes de programación como C, C++ y Java. Las instrucciones se separan con un punto y coma (;) y las estructuras de control de flujo, como los bucles y las declaraciones condicionales, utilizan las llaves {} para delimitar el código.
+        </p>
+        <p>
+Describe la diferencia y consideraciones especiales al utilizar caracteres en mayúsculas en PHP, al utilizarlo en palabras reservadas y en variables.
+        </p>
+        <p>
+En PHP, se utilizan convenciones de nomenclatura para diferenciar entre palabras reservadas, variables y constantes. Las palabras reservadas en PHP, como "if" y "else", están escritas en minúsculas y no deben utilizarse como nombres de variables o constantes. Las variables y las constantes, por otro lado, se escriben generalmente en minúsculas y se separan con guiones bajos (_).
+        </p>
+        <p>
+Además, las constantes en PHP se escriben generalmente en mayúsculas para diferenciarlas de las variables. Es importante tener en cuenta que las constantes son valores que no cambian durante la ejecución del programa, mientras que las variables pueden cambiar su valor.
+        </p>
+        <p>
+¿Cómo se declaran variables en PHP?
+        </p>
+        <p>
+En PHP, se puede declarar una variable simplemente asignando un valor a un nombre de variable. El nombre de la variable debe comenzar con un signo de dólar ($), seguido del nombre de la variable. Por ejemplo:
+        </p>
+        <p>
+$mi_variable = "Hola Mundo";
+        </p>
+        <p>
+Cómo se declaran funciones en PHP?
+        </p>
+        <p>
+Para declarar una función en PHP, se utiliza la palabra clave "function", seguida del nombre de la función y una lista de parámetros entre paréntesis. La definición de la función se encierra en llaves {}. Por ejemplo:
+        </p>
+        <p>
+function suma(n1,n2){
+  $resultado = n1 + n2;
+  return $resultado;
+}
+        </p>
+        <p>
+¿Cuáles ciclos de programación están disponibles en PHP?
+        </p>
+        <p>
+En PHP, están disponibles los ciclos de programación "while", "do-while", "for" y "foreach". Cada uno de estos ciclos se utiliza para ejecutar un bloque de código varias veces, en función de una condición o una lista de elementos.
+        </p>
+        <p>
+¿Cuáles funciones de condicional están disponibles en PHP?
+        </p>
+        <p>
+En PHP, están disponibles las funciones de condicional "if", "else", "elseif", "switch" y "case". Estas funciones se utilizan para evaluar una expresión o una variable y ejecutar diferentes bloques de código en función del resultado de la evaluación. Por ejemplo:
+        </p>
+        <p>
+if ($edad > 18){
+  echo "Mayor de Edad";
+}
+else{
+  echo "Menor de Edad";
+}
+        </p>
+        <p>
+En este ejemplo, se utiliza la función "if" para evaluar la variable $edad y ejecutar el código correspondiente en función de su valor. Si $edad es mayor o igual a 18, se imprime "Eres mayor de edad", de lo contrario se imprime "Eres menor de edad".
+        </p>
+        <p>
+Identificación de los diferentes métodos reservados para el tratamiento de archivos:
+        </p>
+        <p>
+En PHP, existen diferentes métodos para trabajar con archivos, algunos de los más comunes son los siguientes:
+        </p>
+        <p>
+fopen(): Abre un archivo y devuelve un identificador de archivo.
+        </p>
+        <p>
+fread(): Lee un número especificado de bytes de un archivo abierto.
+        </p>
+        <p>
+fwrite(): Escribe en un archivo abierto.
+        </p>
+        <p>
+fclose(): Cierra un archivo abierto.
+        </p>
+        <p>
+fgets(): Lee una línea de un archivo abierto.
+        </p>
+        <p>
+feof(): Comprueba si el final de un archivo ha sido alcanzado.
+        </p>
+        <p>
+Programa Básico para crear un archivo
+        </p>
+        <p>
+<?php
+$myfile = fopen("webdictionary.txt", "r") or die("Unable to open file!");
+echo fread($myfile,filesize("webdictionary.txt"));
+fclose($myfile);
+?> 
+        </p>
+        <p>
+<?php
+$myfile = fopen("webdictionary.txt", "r");
+// some code to be executed....
+fclose($myfile);
+?>
+        </p>
+        <p>
+ <?php
+$myfile = fopen("webdictionary.txt", "r") or die("Unable to open file!");
+echo fgets($myfile);
+fclose($myfile);
+?>
+        </p>
+Facilidad de aprendizaje: PHP es un lenguaje de programación relativamente fácil de aprender y entender, lo que lo hace accesible para personas con diferentes niveles de experiencia en programación.
+        </p>
+        <p>
+Comunidad activa: PHP cuenta con una comunidad activa de desarrolladores que proporcionan soporte y recursos en línea para la resolución de problemas y el desarrollo de proyectos.
+        </p>
       </div>
     </div>
     <script src="../js/functionality.js"></script>
